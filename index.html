@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Business Card</title>
+
+
+    <link rel='stylesheet prefetch'
+          href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+<div class="flip">
+    <div class="card">
+        <div class="face front">
+            <div class="details">
+                <div id="name">
+                </div>
+                <hr>
+
+                <div class="contact">
+                    <p> Phone: <span id="phone"></span></p>
+                    <p>Email: <span id="email"></span></p>
+                </div>
+
+            </div>
+            <div class="avatar">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgRBhARDw4SDw8QEBAQDg4TCg8PEg8OFREWFhURExUYHCggGBolGxMWITEhJSkrLi4uFx8zODMsNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALgAuAMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAAAAQQDAgUH/8QAKxABAAEDAQYFBAMAAAAAAAAAAAECAwQRITFBUWGBEiNxkbEFEyLxMpLR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AP3EQBRAFEAUQBRAFEAUQBRAFEAUQBRAFEAQQBRAFEAUQBRAFEAUQBRAFEAUQBRAFEAQAAAAAAAANWHIzuFH9v8AAbpmIjbOndynJs6/yh8mqqqZ1mdZQH2qLlE7pie70+G60ZN6I2VT8g+uMmLlzVVpVv4TzawAAAAAAAQAQBRAFEAURxyrvhszznZAM2bkaz4Y3Rv6yyAAAAABEt+LlzM+Grfwnn0lgAfbHLHueKzE8ePq6AogCiAKIoPIAAAAADD9Qq8yI5R8/pufOz48/tAM4AAAAAAAPo4E+R3locMSnSxHXa7gAAAAKgCCAKIAogCsf1CI/GeO2NOjWwZsT971iAZwAAAAAHq3RrXEc5eXTHiZvU+oPqRGwQBRAFEAUQBBAFEAUQBWTPpnWJ4bu7UldMTTpIPlj3do8NyYeAAAAAHbEifvx3cX0bNmmmNm+d4OogCiAKIAogAIAogCiAKIAxZlPm684cG3Lp1t+nwxAAAAA9W41riOsPp6sGJTrd15NwKIAogCiAKgAggCiAKIAo53L1EcdvKGa5kVzu2QDtkX4iNI3/DGAAAAAO+NdiJ0ndPFsfMdbd+uOscgbhyt3qJ6TydAUQBRAFEUEEAV5rrpiNrzduRTT8QxVVTM6yDvXkzwjRyqu3J4vAAAAAAAAAAAA9Rcr5z7vIDpF+5z17O1vJid+zrwZQH0VYrN6Ynp8NkSCiAII8X6tLc+wM12vWvX29HgAAAAAAAAAAAAAAAAAGjFr4ezO9W6tK4kG4QAccmfwj1AGYAAAAAAAAAAAAAAAAAAAG6J2AA//9k="/>
+            </div>
+        </div>
+        <div class="face back">
+
+            <div class="details">
+                <p>City: <span id="city"></span></p>
+                <p>Address: <span id="address"></span></p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script src="js/index.js"></script>
+
+
+</body>
+</html>
